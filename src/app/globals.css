@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #ffffff;
+  --mist: #eef6fb;
+  --mist-deep: #dfeef8;
+  --ink: #10222f;
+  --ink-soft: #51697a;
+  --ink-faint: #8ba0af;
+  --line: rgba(16, 34, 47, 0.1);
+  --teal: #0f9c93;
+  --teal-bright: #3fd9c7;
+  --teal-deep: #0b6e68;
+  --teal-tint: #e3f7f3;
+  --sky: #3f7fbf;
+  --blush: #f6b8ac;
+  --coral: #e98c7c;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-mist: var(--mist);
+  --color-mist-deep: var(--mist-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-teal: var(--teal);
+  --color-teal-bright: var(--teal-bright);
+  --color-teal-deep: var(--teal-deep);
+  --color-teal-tint: var(--teal-tint);
+  --color-sky: var(--sky);
+  --color-blush: var(--blush);
+  --color-coral: var(--coral);
+
+  --font-display: var(--font-sora);
+  --font-sans: var(--font-jakarta);
+
+  --animate-float-slow: float-slow 6s ease-in-out infinite;
+  --animate-pulse-soft: pulse-soft 2.4s ease-in-out infinite;
+}
+
+/* Lenis recommended base styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+* {
+  scrollbar-color: var(--color-teal) var(--color-mist);
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-mist);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-teal);
+  border-radius: 999px;
+  border: 2px solid var(--color-mist);
+}
+
+::selection {
+  background: var(--color-teal-bright);
+  color: var(--color-ink);
+}
+
+html {
+  overflow-x: clip;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  overflow-x: clip;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.08);
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.bg-grid {
+  background-image: radial-gradient(circle, rgba(15, 156, 147, 0.14) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.mask-fade-b {
+  mask-image: linear-gradient(180deg, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, black 80%, transparent 100%);
+}
