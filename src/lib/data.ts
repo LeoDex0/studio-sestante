@@ -1,25 +1,25 @@
 export const SITE = {
-  name: "Studio Vannini",
-  fullName: "Studio Dentistico Vannini",
+  name: "Studio Sestante",
+  fullName: "Studio Dentistico Sestante",
   tagline: "Studio Dentistico a Rimini",
   description:
-    "Studio Dentistico Vannini: igiene, estetica dentale, implantologia, ortodonzia e odontoiatria pediatrica in un unico studio a Rimini, pensato per mettere a proprio agio anche i pazienti più ansiosi.",
-  address: "Via Pietro Perleoni 32, Rimini (RN)",
-  addressShort: "Via Pietro Perleoni 32 · Rimini",
-  phoneDisplay: "0541 791372",
-  phoneHref: "tel:+390541791372",
-  email: "info@studiovannini-rimini.it",
-  rating: 4.8,
-  reviews: 28,
+    "Studio Dentistico Sestante: igiene, estetica dentale, implantologia, ortodonzia e odontoiatria pediatrica in un unico studio a Rimini, pensato per mettere a proprio agio anche i pazienti più ansiosi.",
+  address: "Rimini (RN)",
+  addressShort: "Rimini (RN)",
+  phoneDisplay: "0541 682910",
+  phoneHref: "tel:+390541682910",
+  email: "info@studiosestante-rimini.it",
+  rating: 4.9,
+  reviews: 132,
   hours: [
     { day: "Lunedì – Venerdì", time: "9:00 – 19:00" },
     { day: "Sabato", time: "su appuntamento" },
     { day: "Domenica", time: "chiuso" },
   ],
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Via+Pietro+Perleoni+32,+Rimini+RN,+Italy&output=embed",
+    "https://www.google.com/maps?q=Rimini+RN,+Italy&output=embed",
   mapLinkSrc:
-    "https://www.google.com/maps/search/?api=1&query=Via+Pietro+Perleoni+32,+Rimini+RN,+Italy",
+    "https://www.google.com/maps/search/?api=1&query=Rimini+RN,+Italy",
 } as const;
 
 export const NAV_LINKS = [
@@ -254,7 +254,7 @@ export const FAQS: Faq[] = [
   {
     question: "Gestite le urgenze, come un forte mal di denti improvviso?",
     answer:
-      "Sì, riserviamo spazio in agenda per le urgenze odontoiatriche. Chiamaci allo 0541 791372 appena possibile: valutiamo insieme la situazione e ti indichiamo la soluzione più rapida disponibile.",
+      "Sì, riserviamo spazio in agenda per le urgenze odontoiatriche. Chiamaci allo 0541 682910 appena possibile: valutiamo insieme la situazione e ti indichiamo la soluzione più rapida disponibile.",
   },
   {
     question: "Fate apparecchi invisibili o allineatori trasparenti?",
@@ -323,13 +323,13 @@ export const VALUES: Value[] = [
 export const TRUST_POINTS = [
   {
     icon: "Star",
-    title: "4.8 su Google",
-    description: "28 recensioni verificate dei nostri pazienti",
+    title: "4.9 su Google",
+    description: "132 recensioni verificate dei nostri pazienti",
   },
   {
     icon: "MapPin",
     title: "Nel cuore di Rimini",
-    description: "Via Pietro Perleoni 32, facile da raggiungere e parcheggiare",
+    description: "Zona centrale, facile da raggiungere e parcheggiare",
   },
   {
     icon: "ShieldCheck",

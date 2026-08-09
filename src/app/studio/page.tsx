@@ -12,7 +12,7 @@ import { CLINIC_IMAGES, VALUES } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Lo Studio",
   description:
-    "Filosofia, struttura e team dello Studio Dentistico Vannini a Rimini: un ambiente pensato per mettere a proprio agio ogni paziente.",
+    "Filosofia, struttura e team dello Studio Dentistico Sestante a Rimini: un ambiente pensato per mettere a proprio agio ogni paziente.",
 };
 
 export default function StudioPage() {

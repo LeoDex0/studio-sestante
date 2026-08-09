@@ -8,7 +8,7 @@ import { SITE } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Prenota una Visita",
   description:
-    "Prenota una prima visita o richiedi un preventivo gratuito allo Studio Dentistico Vannini, Via Pietro Perleoni 32, Rimini. Tel. 0541 791372.",
+    "Prenota una prima visita o richiedi un preventivo gratuito allo Studio Dentistico Sestante, a Rimini. Tel. 0541 682910.",
 };
 
 export default function PrenotaPage() {
