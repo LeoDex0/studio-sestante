@@ -2,7 +2,9 @@
 
 Website for a dental clinic.
 
-**Live:** https://studio-sestante.vercel.app
+![Preview](.github/preview.jpg)
+
+**Live:** [studio-sestante.vercel.app](https://studio-sestante.vercel.app)
 
 ## Stack
 
