@@ -23,7 +23,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost:3022"),
   title: {
-    default: `${SITE.fullName} — Studio Dentistico`,
+    default: SITE.fullName,
     template: `%s — ${SITE.fullName}`,
   },
   description: SITE.description,
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "dentista pediatrico",
   ],
   openGraph: {
-    title: `${SITE.fullName} — Studio Dentistico`,
+    title: SITE.fullName,
     description: SITE.description,
     locale: "it_IT",
     type: "website",
