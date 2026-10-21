@@ -1,6 +1,6 @@
 # Studio Sestante
 
-Website for a dental clinic in Rimini, Italy.
+Website for a dental clinic.
 
 **Live:** https://studio-sestante.vercel.app
 
