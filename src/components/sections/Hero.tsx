@@ -50,8 +50,8 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.16, ease: EASE }}
             className="mt-6 max-w-lg text-balance text-lg leading-relaxed text-ink-soft"
           >
-            {SITE.fullName}: prevenzione, estetica e cure odontoiatriche a
-            Rimini, in uno studio pensato per farti sentire a tuo agio ad ogni
+            {SITE.fullName}: prevenzione, estetica e cure odontoiatriche
+            in uno studio pensato per farti sentire a tuo agio ad ogni
             visita.
           </motion.p>
 

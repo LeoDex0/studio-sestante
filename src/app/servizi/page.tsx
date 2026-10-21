@@ -9,7 +9,7 @@ import { SERVICES } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Servizi",
   description:
-    "Igiene dentale, estetica e sbiancamento, implantologia, ortodonzia e odontoiatria pediatrica: i servizi dello Studio Dentistico Sestante a Rimini.",
+    "Igiene dentale, estetica e sbiancamento, implantologia, ortodonzia e odontoiatria pediatrica: i servizi dello Studio Dentistico Sestante.",
 };
 
 export default function ServiziPage() {

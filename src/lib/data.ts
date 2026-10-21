@@ -1,14 +1,14 @@
 export const SITE = {
   name: "Studio Sestante",
   fullName: "Studio Dentistico Sestante",
-  tagline: "Studio Dentistico a Rimini",
+  tagline: "Studio Dentistico",
   description:
-    "Studio Dentistico Sestante: igiene, estetica dentale, implantologia, ortodonzia e odontoiatria pediatrica in un unico studio a Rimini, pensato per mettere a proprio agio anche i pazienti più ansiosi.",
+    "Studio Dentistico Sestante: igiene, estetica dentale, implantologia, ortodonzia e odontoiatria pediatrica in un unico studio, pensato per mettere a proprio agio anche i pazienti più ansiosi.",
   address: "Rimini (RN)",
   addressShort: "Rimini (RN)",
   phoneDisplay: "0541 682910",
   phoneHref: "tel:+390541682910",
-  email: "info@studiosestante-rimini.it",
+  email: "info@studiosestante.it",
   rating: 4.9,
   reviews: 132,
   hours: [
@@ -328,7 +328,7 @@ export const TRUST_POINTS = [
   },
   {
     icon: "MapPin",
-    title: "Nel cuore di Rimini",
+    title: "Nel cuore della città",
     description: "Zona centrale, facile da raggiungere e parcheggiare",
   },
   {

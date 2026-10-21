@@ -9,7 +9,7 @@ import { SITE } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Domande Frequenti",
   description:
-    "Le domande più frequenti sui trattamenti, i costi e le urgenze dello Studio Dentistico Sestante a Rimini.",
+    "Le domande più frequenti sui trattamenti, i costi e le urgenze dello Studio Dentistico Sestante.",
 };
 
 export default function FaqPage() {
